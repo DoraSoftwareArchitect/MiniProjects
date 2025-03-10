@@ -6,7 +6,7 @@ public class SumOfDigit {
 
 		int n = 1234;
 
-		int summ = sumOfNumber(n);
+		int summ = sumOfNumber(n)
 		System.out.println("Sum of given Number :" + summ);
 	}
 
