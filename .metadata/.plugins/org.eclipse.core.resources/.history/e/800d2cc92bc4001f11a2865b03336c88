@@ -1,0 +1,13 @@
+package com.dsa.day9;
+
+import java.util.Scanner;
+
+public class ArmStrongNumber {
+	
+	public static void main(String[] args) {
+		
+		Scanner scanner =new Scanner(System.in);
+		System.out.println("Please enter the number to find the armstrong Number or not");
+	}
+
+}

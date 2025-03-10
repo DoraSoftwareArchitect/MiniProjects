@@ -1,0 +1,17 @@
+package com.dsa.day9;
+
+import java.util.Scanner;
+
+public class FindingPowerOfNumber {
+	
+	public static void main(String[] args) {
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("Please the enter the number to multiply :");
+		int a=scanner.nextInt();
+		System.out.println("Please the enter the power to multiply :");
+		int b=scanner.nextInt();
+
+		
+	}
+
+}

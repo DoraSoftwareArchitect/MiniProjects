@@ -1,0 +1,9 @@
+package com.dsa.session6;
+
+public class AddingSumOfElementsInArray {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

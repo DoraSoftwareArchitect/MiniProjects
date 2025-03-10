@@ -1,0 +1,50 @@
+package com.dsa.session6;
+
+import java.util.Scanner;
+
+public class AddingSumOfElementsInArray {
+
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+
+//		int[][] number = { { 2, 3, 4 }, { 1, 2, 3 }, { 5, 6, 7 } };
+		System.out.println("Please enter the elements into an array :");
+
+		int n = scanner.nextInt();
+		System.out.println("Number of rows in a matrix :"+n);
+		int m = scanner.nextInt();
+		System.out.println("Number of columns in a matrix :"+m);
+
+		int a[][] = new int[n][m];
+
+		for (int i = 0; i < n; i++) {
+			for (int j = 0; j < m; j++) {
+				a[i][j] = scanner.nextInt();
+				System.out.print(a[i][j]);
+			}
+
+		}
+
+		rowSum(a, n, m);
+
+	}
+
+	private static void rowSum(int[][] a, int n, int m) {
+
+		for (int i = 0; i < n; i++) {
+			int sum = 0;
+
+			for (int j = 0; j < m; j++) {
+				sum = sum + a[i][j];
+			}
+			
+			
+			
+
+			System.out.print("Sum :" + " " + " 2" + sum);
+		}
+
+	}
+
+}

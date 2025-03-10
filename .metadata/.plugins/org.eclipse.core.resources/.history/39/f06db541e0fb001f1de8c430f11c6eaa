@@ -1,0 +1,30 @@
+package com.dsa.session6;
+
+import java.util.Scanner;
+
+public class AddingSumOfElementsInArray {
+	
+	public static void main(String[] args) {
+		
+		
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("Please enter the array of elements :");
+		
+		int[][] number= {{2,3,4},{1,2,3},{5,6,7}};
+		
+		
+		System.out.println("You have to be entered "+number+"this many number into an array...");
+		
+		printingSum(int[][] arr);
+		
+	}
+
+	private static void printingSum(int[][] matrix, int number) {
+		
+	}
+	
+	
+	
+	
+
+}
